@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
@@ -19,7 +18,6 @@ const Navigation = () => {
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
     { name: "Services", href: "#services" },
-    { name: "Portfolio", href: "#portfolio" },
     { name: "Contact", href: "#contact" }
   ];
 
@@ -41,7 +39,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="font-bold text-2xl text-gray-900 hover:text-blue-600 transition-colors cursor-pointer">
-            <span className="text-gradient">Abegail</span>.
+            <span className="text-gradient">Abegail Hornilla</span>.
           </div>
           
           {/* Desktop Navigation */}

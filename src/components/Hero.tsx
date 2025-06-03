@@ -3,10 +3,6 @@ import { ArrowDown, Sparkles, Code, Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
-  const scrollToPortfolio = () => {
-    document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' });
-  };
-
   const scrollToContact = () => {
     document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
   };
@@ -36,8 +32,8 @@ const Hero = () => {
             🎓 Available for new opportunities
           </div>
           
-          {/* Main heading */}
-          <h1 className="text-6xl md:text-8xl font-bold mb-8 animate-fade-in delay-200">
+          {/* Main heading - made smaller and more minimal */}
+          <h1 className="text-4xl md:text-6xl font-bold mb-8 animate-fade-in delay-200">
             <span className="block text-gradient">Abegail</span>
             <span className="block text-gray-800">Saldua Hornilla</span>
           </h1>
@@ -55,11 +51,11 @@ const Hero = () => {
           {/* Action buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in delay-500">
             <Button 
-              onClick={scrollToPortfolio}
+              onClick={scrollToContact}
               size="lg" 
               className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-10 py-4 rounded-full font-medium transition-all duration-300 hover:scale-105 shadow-glow text-lg"
             >
-              View Portfolio
+              Get In Touch
               <Sparkles className="ml-2 w-5 h-5" />
             </Button>
             <Button 
