@@ -32,6 +32,17 @@ const Hero = () => {
             🎓 Available for new opportunities
           </div>
           
+          {/* Profile Picture */}
+          <div className="mb-8 animate-fade-in delay-100">
+            <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full overflow-hidden shadow-2xl ring-4 ring-white/50 hover:scale-105 transition-transform duration-300">
+              <img 
+                src="https://i.postimg.cc/zvFNM4tj/494692151-565311576629987-4927024616511274889-n.png"
+                alt="Abegail Saldua Hornilla"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+          
           {/* Main heading - made smaller and more minimal */}
           <h1 className="text-4xl md:text-6xl font-bold mb-8 animate-fade-in delay-200">
             <span className="block text-gradient">Abegail</span>
